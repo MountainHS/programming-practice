@@ -36,7 +36,7 @@ int main() {
             Div(a, c);
             break;
         default:
-            cout << "false";
+            cout << "False";
     }
     cin.ignore();
     cin.get();
