@@ -6,9 +6,10 @@ int n;
 bool check(int i){
     int div = 10;
     int sum = 0;
-    while (i != 0){
-        sum += i % div;
-        i /= div;
+    int j = i;
+    while (j != 0){
+        sum += j % div;
+        j /= div;
     }
     return i % 2 == 0 && sum % 5 == 0;
 }
