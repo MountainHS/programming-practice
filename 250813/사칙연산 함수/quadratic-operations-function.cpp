@@ -35,6 +35,8 @@ int main() {
         case '/':
             Div(a, c);
             break;
+        default:
+            cout << "false";
     }
     cin.ignore();
     cin.get();
